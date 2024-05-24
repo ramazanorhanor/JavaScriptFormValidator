@@ -50,22 +50,6 @@ $ git commit -m "word dosyası ekledik"
 $ git push -u origin master
 
 
-or create a new repository on the command line
-
-echo "# ileri-seviye-javaBtk" >> README.md
-
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/ramazanorhanor/ileri-seviye-javaBtk.git
-git push -u origin master
-
-         
-…or push an existing repository from the command line
-git remote add origin https://github.com/ramazanorhanor/ileri-seviye-javaBtk.git
-git branch -M master
-git push -u origin master
 
 hata 
 error: remote origin already exists. 
